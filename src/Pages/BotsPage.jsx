@@ -3,7 +3,7 @@ import YourBotArmy from "../components/YourBotArmy";
 import BotCollection from "../components/BotCollection";
 
 
-function BotPage() {
+function BotsPage() {
   const [bots, setBots] = useState([]);
   const [botArmy, setBotArmy] = useState([]);
 
@@ -86,4 +86,4 @@ function BotPage() {
   );
 }
 
-export default BotPage;
+export default BotsPage;
